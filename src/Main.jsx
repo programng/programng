@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Landing from './Landing';
 import About from './About';
+import '../dist/style.css';
 
 function Main() {
   return (
