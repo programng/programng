@@ -1,7 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  /*font-family: 'Arimo', sans-serif;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
-  background-image: url('background.jpg');
+  background-image: url('alt-background.jpg');
+  /*background-image: url('background1.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-name {
+  font-size: 80px;
+  align-self: center;
+  /*text-align: center;*/
 }
