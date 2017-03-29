@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  background-image: url('alt-background.jpg');
-  /*background-image: url('background1.jpg');*/
+  background-image: url('background.jpg');
+  /*background-image: url('alt-background.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -25,7 +25,7 @@ body {
 }
 
 .landing-name {
-  font-size: 80px;
+  font-size: 70px;
   align-self: center;
   /*text-align: center;*/
 }
