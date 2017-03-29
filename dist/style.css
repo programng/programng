@@ -27,10 +27,15 @@ body {
 .landing-name {
   font-size: 70px;
   align-self: center;
+  margin:18px;
   /*text-align: center;*/
 }
 
 /* Social Links */
+div.social-links {
+  height: 52px;
+}
+
 ul.social-links-list {
   list-style-type: none;
   padding: 0;
