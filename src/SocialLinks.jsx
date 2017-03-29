@@ -74,7 +74,7 @@ function SocialLinks() {
           </a>
         </li>
         <li className="social-links-list-item">
-          <a className="social-links-link" title="Instagram" href="http://www.instagram.com/programng">
+          <a className="social-links-link" title="Instagram" href="http://www.instagram.com/jon.ng.xyz">
             <svg>
               <g transform="scale(0.4, 0.4)">
                 <circle id="instagram-back" fill="#929292" cx="64" cy="64" r="64"/>
@@ -92,7 +92,7 @@ function SocialLinks() {
           </a>
         </li>
         <li className="social-links-list-item">
-          <a className="social-links-link" title="Twitter" href="http://www.twitter.com/jon.ng.xyz">
+          <a className="social-links-link" title="Twitter" href="http://www.twitter.com/programng">
             <svg>
               <g transform="scale(0.4, 0.4)">
                 <circle id="twitter-back" fill="#929292" cx="64" cy="64" r="64"/>
