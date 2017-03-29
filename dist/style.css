@@ -10,8 +10,7 @@ html {
 }
 
 body {
-  background-image: url('background.jpg');
-  /*background-image: url('alt-background.jpg');*/
+  background-image: url('background_opt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
