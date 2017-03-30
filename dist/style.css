@@ -46,18 +46,76 @@ table {
 
 /* Custom CSS */
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 html {
   height: 100%;
   width: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  /*font-family: 'Arimo', sans-serif;*/
-  display: flex;
+/*  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 body {
+  height: 100%;
+  width: 100%;
+/*  background-image: url('background_opt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;*/
+}
+
+div#app, div.app {
+  height: 100%;
+  width: 100%;
+}
+
+/* HEADER */
+div.header {
+  color: black;
+  height: 45px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+div.header-title {
+  margin: 0 40px;
+  flex-grow: 1;
+}
+
+ul.header-nav-list {
+  flex-grow: 5;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 110px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li.header-nav-list-item {
+  /*min-width: 100px;*/
+}
+
+/* LANDING */
+div.landing {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   background-image: url('background_opt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,21 +123,14 @@ body {
   background-attachment: fixed;
 }
 
-.landing {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.landing-name {
+h1.landing-name {
   font-size: 70px;
   align-self: center;
+  color: white;
   margin:18px;
-  /*text-align: center;*/
 }
 
-/* Social Links */
+/* SOCIAL LINKS */
 div.social-links {
   height: 52px;
 }
@@ -95,4 +146,16 @@ ul.social-links-list {
 
 li.social-links-list-item {
   width: 80px;
+}
+
+/* ABOUT, PORTFOLIO, BLOG */
+.about, .portfolio, .blog {
+  height: 100%;
+  width: 100%;
+
+  background-image: url('background-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }

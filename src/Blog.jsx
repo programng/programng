@@ -1,11 +1,11 @@
 import React from 'react';
 
-function About() {
+function Blog() {
   return (
-    <div className="about">
+    <div className="blog">
       COMING SOON
     </div>
   );
 }
 
-export default About;
+export default Blog;
