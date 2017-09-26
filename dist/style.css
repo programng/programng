@@ -125,6 +125,7 @@ div.landing {
 
 h1.landing-name {
   font-size: 70px;
+  font-weight: 500;
   align-self: center;
   color: white;
   margin:18px;
